@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{14eec4a3-76c0-4e8c-a724-6f5e427f78ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{2c6b23ee-913c-48d4-9581-ff9e60bf2f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\core">
+      <UniqueIdentifier>{39572360-8c3b-40ff-ac5b-4b8e16d869ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\algebra">
+      <UniqueIdentifier>{236c78ba-1518-4f33-8616-a30d2b331379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\noise">
+      <UniqueIdentifier>{b6371216-ea68-495f-808f-0267d76ce993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\container">
+      <UniqueIdentifier>{ab814af0-4a08-4847-be93-9fbf7ca8a329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\debug">
+      <UniqueIdentifier>{287e7111-90ec-4af5-8b0f-3c8e0da5548b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hpp">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\HashTable.hpp">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\HashTable.hxx">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Utils.hpp">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Algorithm.hpp">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Algorithm.hxx">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Array.hpp">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Array.hxx">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\msys_temp.hpp">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\Rand.hpp">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\Hash.hpp">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Utils.hpp">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\StringUtils.hpp">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Functions.hpp">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Settings.hpp">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\debug\Debug.hpp">
+      <Filter>src\engine\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\debug\DebugSettings.hpp">
+      <Filter>src\engine\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\debug\Log.hpp">
+      <Filter>src\engine\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\debug\Assert.hpp">
+      <Filter>src\engine\debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\engine\core\msys_temp.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\Rand.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\Hash.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\StringUtils.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\algebra\Functions.cpp">
+      <Filter>src\engine\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\Settings.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\container\Algorithm.cpp">
+      <Filter>src\engine\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\debug\DebugSettings.cpp">
+      <Filter>src\engine\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\debug\Log.cpp">
+      <Filter>src\engine\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\debug\Assert.cpp">
+      <Filter>src\engine\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\debug\Debug.cpp">
+      <Filter>src\engine\debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

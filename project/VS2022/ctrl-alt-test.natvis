@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="Container::Array&lt;*&gt;">
+    <DisplayString>[size: {size}]</DisplayString>
+    <Expand>
+      <Item Name="Size:">size</Item>
+      <Item Name="Max:">max_size</Item>
+      <ArrayItems>
+        <Size>size</Size>
+        <ValuePointer>elt</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+</AutoVisualizer>

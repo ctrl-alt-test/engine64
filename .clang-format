@@ -1,0 +1,86 @@
+---
+Language: Cpp
+# Basic formatting
+BasedOnStyle: LLVM
+TabWidth: 4
+UseTab: AlignWithSpaces
+ColumnLimit: 100
+
+# Braces
+BreakBeforeBraces: Linux
+
+# Alignment and spacing
+AlignAfterOpenBracket: Align
+AlignConsecutiveDeclarations: false
+AlignEscapedNewlines: Left
+AlignOperands: true
+AlignTrailingComments: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+# Indentation
+IndentCaseLabels: false
+IndentPPDirectives: None
+IndentWidth: 4
+IndentWrappedFunctionNames: false
+NamespaceIndentation: All
+AccessModifierOffset: -4
+
+# Line breaks
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: true
+BinPackParameters: false
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+
+# Spaces
+SpaceAfterCStyleCast: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: false
+Cpp11BracedListStyle: false
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: false
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# Comments
+ReflowComments: true
+
+# Includes and namespaces
+FixNamespaceComments: false
+IncludeBlocks: Preserve
+SortIncludes: true
+SortUsingDeclarations: true
+IncludeCategories:
+  # Local headers
+  - Regex:    '"([^/]+)"'
+    Priority: 1
+  # Headers in ""
+  - Regex:    '"([A-Za-z0-9.\Q/-_\E])+"'
+    Priority: 2
+  # Headers in <>
+  - Regex:    '<([A-Za-z0-9.\Q/-_\E])+>'
+    Priority: 3
+  # All other headers
+  - Regex:    '.*'
+    Priority: 4
