@@ -1,0 +1,26 @@
+*.pdb
+*.suo
+*.csproj.user
+*.csproj.*.user
+*.vcproj.user
+*.vcproj.*.user
+*.vcxproj.user
+*.vcxproj.*.user
+.vscode
+
+# /build
+/build
+
+# /project/VS*/
+/project/*/*.opensdf
+/project/*/*.sdf
+/project/*/.vs
+/project/*/Debug
+/project/*/Release
+/project/*/UpgradeLog.htm
+/project/*/build
+
+# /thirdparty/tlibc/
+/thirdparty/tlibc/Debug
+/thirdparty/tlibc/DebugRelease
+/thirdparty/tlibc/Release
