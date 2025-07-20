@@ -33,7 +33,8 @@ function and you decide which parts of the engine you use. C++ compilers are
 good at removing deadcode, so unused features shouldn't add any overhead.
 
 The `demos` directory has an example of how to use the engine. `demos/example01/`
-is a minimal executable to get a simple OpenGL setup. You can make a copy of the `example01/` directory and put the code of your demo there.
+is a minimal executable to get a simple OpenGL setup. You can make a copy of the
+`example01/` directory and put the code of your demo there.
 
 ### Compilation modes
 

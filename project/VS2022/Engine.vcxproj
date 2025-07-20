@@ -19,10 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\engine\algebra\Functions.hpp" />
-    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hpp" />
-    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hxx" />
-    <ClInclude Include="..\..\src\engine\algebra\Utils.hpp" />
     <ClInclude Include="..\..\src\engine\container\Algorithm.hpp" />
     <ClInclude Include="..\..\src\engine\container\Algorithm.hxx" />
     <ClInclude Include="..\..\src\engine\container\Array.hpp" />
@@ -46,7 +42,6 @@
     <ClInclude Include="..\..\src\engine\noise\Rand.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\engine\algebra\Functions.cpp" />
     <ClCompile Include="..\..\src\engine\container\Algorithm.cpp" />
     <ClCompile Include="..\..\src\engine\core\msys_temp.cpp" />
     <ClCompile Include="..\..\src\engine\core\Settings.cpp" />

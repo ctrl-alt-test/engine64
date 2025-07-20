@@ -10,9 +10,6 @@
     <Filter Include="src\engine\core">
       <UniqueIdentifier>{39572360-8c3b-40ff-ac5b-4b8e16d869ae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\engine\algebra">
-      <UniqueIdentifier>{236c78ba-1518-4f33-8616-a30d2b331379}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\engine\noise">
       <UniqueIdentifier>{b6371216-ea68-495f-808f-0267d76ce993}</UniqueIdentifier>
     </Filter>
@@ -24,12 +21,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hpp">
-      <Filter>src\engine\algebra</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hxx">
-      <Filter>src\engine\algebra</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\engine\container\HashTable.hpp">
       <Filter>src\engine\container</Filter>
     </ClInclude>
@@ -60,14 +51,8 @@
     <ClInclude Include="..\..\src\engine\noise\Hash.hpp">
       <Filter>src\engine\noise</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\engine\algebra\Utils.hpp">
-      <Filter>src\engine\algebra</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\engine\core\StringUtils.hpp">
       <Filter>src\engine\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\engine\algebra\Functions.hpp">
-      <Filter>src\engine\algebra</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\engine\core\Settings.hpp">
       <Filter>src\engine\core</Filter>
@@ -97,9 +82,6 @@
     </ClCompile>
     <ClCompile Include="..\..\src\engine\core\StringUtils.cpp">
       <Filter>src\engine\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\engine\algebra\Functions.cpp">
-      <Filter>src\engine\algebra</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\engine\core\Settings.cpp">
       <Filter>src\engine\core</Filter>
